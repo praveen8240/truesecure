@@ -1,0 +1,20 @@
+/* Add this CSS to your global stylesheet or a dedicated CSS file */
+.scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(203, 130, 225) rgba(0, 0, 0, 0); /* violet thumb with transparent background */
+  }
+/* sideBar.css */
+
+nav {
+  transition: width 0.3s ease;
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+nav.expanded {
+  width: 240px; /* Adjust width as needed */
+}
+
+nav.collapsed {
+  width: 64px; /* Adjust width as needed */
+}
+
